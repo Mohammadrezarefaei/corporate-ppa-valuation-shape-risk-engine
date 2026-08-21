@@ -17,13 +17,13 @@ A quantitative corporate Power Purchase Agreement (PPA) valuation and risk struc
 Renewable project finance requires assessing how profile, volume, and balancing risks are allocated between the generator and corporate offtaker:
 
 1. **Pay-as-Produced (PaP):**
-   * Generator receives fixed strike ($€/\text{MWh}$) for all realized output. Offtaker absorbs shape and volume risk; maximizes project bankability for debt financing.
+   * Generator receives fixed strike (€/MWh) for all realized output. Offtaker absorbs shape and volume risk; maximizes project bankability for debt financing.
 
 2. **Pay-as-Forecasted:**
    * Generator is compensated based on Day-Ahead forecasted generation; generator absorbs real-time balancing and imbalance settlement penalties (reBAP).
 
 3. **Baseload Equivalent with Collar Options:**
-   * Synthesizes fixed volume delivery with an asymmetric floor and cap price corridor ($P_{\text{floor}} \le P \le P_{\text{cap}}$), requiring active spot market balancing for volume mismatches.
+   * Synthesizes fixed volume delivery with an asymmetric floor and cap price corridor (Floor <= Price <= Cap), requiring active spot market balancing for volume mismatches.
 
 4. **Cannibalization & Capture Price Modeling:**
    * Simulates the non-linear merit-order depression where peak midday solar feed-in suppresses market clearing prices below baseload averages.
@@ -32,7 +32,7 @@ Renewable project finance requires assessing how profile, volume, and balancing 
 
 ## 🔍 Key Performance Insights
 
-* **Downside Tail Protection:** Structuring via Pay-as-Produced secures significantly higher Conditional Value-at-Risk ($CVaR_{95\%}$), insulating equity investors against merchant price collapse.
+* **Downside Tail Protection:** Structuring via Pay-as-Produced secures significantly higher Conditional Value-at-Risk (95% CVaR), insulating equity investors against merchant price collapse.
 * **Forecast Error Impact:** Highlights the financial drag of intraday balancing costs when operating under Pay-as-Forecasted structures without co-located BESS flexibility.
 
 ---
